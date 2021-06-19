@@ -16,7 +16,7 @@ module.exports={
         path:path.resolve(__dirname,'dist'),
         filename:'bundle.js',
         //you only put publicPath on the .config.js file, this is the path that is going to be publish
-        publicPath:"/",
+        publicPath:"./",
 
         //you need clean:true because the TerserPlugin will create compressed files... and you will need to remove the older ones
         clean:true,
