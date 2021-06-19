@@ -1,0 +1,16 @@
+{
+
+    "presets": [
+        
+        // env will allow us to compile modern JS 
+        "@babel/preset-env",
+
+        // this preset will allow every browser understand react
+        ["@babel/preset-react",{
+         
+            "runtime":"automatic"
+        
+        }]
+    
+    ]
+}
